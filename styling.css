@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+#showcase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    width:20% ;
+    height: 65%;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+#showcase img{
+    /* background:url('./images/image-qr-code.png')no-repeat; */
+    border-radius: 10px;
+}
+
+#showcase h1{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    margin: 20px 0 20px 0;
+}
+
+#showcase p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: hsl(220, 15%, 55%);
+}
+
+@media (max-width:768px) {
+    body{
+        background-color: hsl(212, 45%, 89%);
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        font-family: 'Outfit', sans-serif;
+    }
+    
+    
+    #showcase{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        padding: 20px;
+        background-color: hsl(0, 0%, 100%);
+        width: 56%;
+        height: 65%;
+        border: none;
+        border-radius: 20px;
+        
+    }
+    
+    #showcase img{
+        /* background:url('./images/image-qr-code.png')no-repeat; */
+        width: 260px;
+        border-radius: 10px;
+    }
+    
+    #showcase h1{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        color: hsl(218, 44%, 22%);
+        margin: 20px 0 20px 0;
+    }
+    
+    #showcase p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        padding-bottom: 20px;
+        color: hsl(220, 15%, 55%);
+    }
+}
